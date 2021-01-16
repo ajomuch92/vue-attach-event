@@ -1,5 +1,5 @@
 # vue-attach-event
-## Project to be able to attach events through a directive to other events on HTML elements in VueJS
+## Directive to be able to attach events through other events on HTML elements in VueJS
 
 ### Install  
 
