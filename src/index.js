@@ -1,4 +1,4 @@
-import Vue from 'Vue';
+import Vue from 'vue';
 
 export default attachDirective = Vue.directive('attach-event', {
   bind: (el, binding) => {
