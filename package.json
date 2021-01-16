@@ -1,0 +1,26 @@
+{
+  "name": "vue-attach-event",
+  "version": "1.0.0",
+  "description": "Project to be able to attach events through a directive to other events on HTML elements in VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajomuch92/vue-attach-event.git"
+  },
+  "keywords": [
+    "vuejs",
+    "attach",
+    "custom",
+    "events",
+    "trigger"
+  ],
+  "author": "Aarón Montes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajomuch92/vue-attach-event/issues"
+  },
+  "homepage": "https://github.com/ajomuch92/vue-attach-event#readme"
+}
