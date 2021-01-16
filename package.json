@@ -1,6 +1,6 @@
 {
   "name": "vue-attach-event",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Project to be able to attach events through a directive to other events on HTML elements in VueJS",
   "main": "index.js",
   "scripts": {

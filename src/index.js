@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-export default attachDirective = Vue.directive('attach-event', {
+const attachDirective = Vue.directive('attach-event', {
   bind: (el, binding) => {
     const {value} = binding;
     if(typeof value !== 'object')
@@ -37,3 +37,5 @@ function eventHandler(el, value) {
   if(newEvent)
     el.dispatchEvent(new Event(newEvent));
 }
+
+export default attachDirective;
