@@ -37,4 +37,5 @@ Add `v-attach-event` as an attribute on the element you wish to handle a new eve
 MIT
 
 ### TODO
-Add event modifiers
+- Add event modifiers
+- Handler when config object changes

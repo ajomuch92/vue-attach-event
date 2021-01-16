@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button @my-event="handler">Button</button>
+    <button v-attach-event="config1" @click="originalHandler" @my-event="customHandler">Button</button>
   </div>
 </template>
 
@@ -8,6 +8,20 @@
 
 export default {
   name: 'App',
+  data: () => ({
+    config1: {
+      on: 'click',
+      newEvent: 'my-event'
+    }
+  }),
+  methods: {
+    originalHandler() {
+      console.log('Original event');
+    },
+    customHandler() {
+      console.log('Custom event');
+    }
+  }
 }
 </script>
 
