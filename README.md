@@ -19,7 +19,7 @@ import 'vue-attach-event';
 Add `v-attach-event` as an attribute on the element you wish to handle a new event and pass and config object:
 
 ```html
-<button class='some-class' v-class-toggle="config" @click="handler" @my-event="handler2">
+<button v-attach-event="config" @click="handler" @my-event="handler2">
 ```
 
 ### Config
